@@ -1,7 +1,7 @@
 # autoupdate
 软件自动更新，用于windows
 在服务器上保存两个文件 比如  bbb.txt,bbb.exe   txt为可执行文件,exe为需要更新执行程序
-
+`
 func main() {
   Update()
 }
@@ -22,3 +22,4 @@ func Update() {
 	}
 
 }
+`
