@@ -1,6 +1,10 @@
 # autoupdate
-软件自动更新，用于windows
-在服务器上保存两个文件 比如  bbb.txt,bbb.exe   txt为可执行文件,exe为需要更新执行程序
+
+软件自动更新(只适用于 windows 平台)
+
+软件部署目录下需要包括两个文件，如 demo.exe, update.exe，其中 demo.exe 为程序文件，update.exe 为升级程序。
+
+以下为 update.exe 的样例代码:
 
 ```golang
 package main
